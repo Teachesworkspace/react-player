@@ -21,7 +21,7 @@ export default class Youku extends Component {
     const { playing, config: { clientId, options }, onError } = this.props
     const id = url.match(MATCH_URL_YOUKU)[1]
     getSDK(SDK_URL, SDK_GLOBAL).then(YKU => {
-      this.player = new YKU.Player(this.playerId, {
+      this.player = new YKU.Player(this.playerID, {
         client_id: clientId,
         vid: id,
         newPlayer: true,
