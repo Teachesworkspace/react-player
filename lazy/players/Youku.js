@@ -159,7 +159,7 @@ var Youku = /*#__PURE__*/function (_Component) {
         height: '100%'
       };
       return /*#__PURE__*/_react["default"].createElement("div", {
-        id: this.playerId,
+        id: this.playerID,
         style: style
       });
     }

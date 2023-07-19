@@ -82,7 +82,7 @@ export default class Youku extends Component {
       height: '100%'
     }
     return (
-      <div id={this.playerId} style={style} />
+      <div id={this.playerID} style={style} />
     )
   }
 }
